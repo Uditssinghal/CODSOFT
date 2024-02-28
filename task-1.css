@@ -1,0 +1,82 @@
+
+body{
+    background-color:rgb(206, 206, 206);
+    font-family: cursive;
+}
+
+#fullTemplate{
+    padding:20px;
+    margin:70px;
+    background-color:whitesmoke;
+    border:none;
+    border-radius:5px;
+    box-shadow:0 0 10px purple;
+}
+.header{
+    display:flex;
+    justify-content:space-between;
+}
+.heads{
+    display:flex;
+    justify-content:space-evenly;
+    width:50%;
+    transition-delay:2s;
+    transition-property: all;
+    transition-timing-function:ease;
+}
+.heads div{
+    margin-top:15px;
+}
+.heads div:hover{
+    border-top:2px solid rgb(175, 43, 175);
+    width:fit-content;
+    color:rgb(150, 90, 150);
+}
+
+/* template-1*/
+
+#template-1{
+   display:flex;
+   justify-content:space-between;
+}
+.food-1 img{
+     width:120%;
+     height:450px;
+     margin-left:-70px;
+     border:none;
+     border-radius:5px;
+     box-shadow:-3px 0 10px purple;
+}
+.brief{
+    width:33%;
+    height:400px;
+}
+.p{
+    margin-top:100px;
+}
+.brief h2{
+    color:green;
+}
+.para{
+    font-size:large;
+}
+button{
+    width:120px;
+    height:40px;
+    background-color:rgb(231, 109, 22);
+    font-size:medium;
+    border-radius:5px;
+}
+.i i{
+    font-size:25px;
+    margin-top:15px;
+    margin-left:2px;
+}
+.food-2 img{
+    width:180%;
+    height:450px;
+     margin-left:-100px;
+     border:none;
+     border-radius:5px;
+     box-shadow:3px 0 10px purple;
+}
